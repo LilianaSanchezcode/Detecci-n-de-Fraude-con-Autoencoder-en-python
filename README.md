@@ -28,10 +28,10 @@ ________________________________________
 - Desarrollo de modelo de aprendizaje No supervisado:Autoencoder
 
 
-- Evaluación del rendimiento del modelo mediante:
+  - Evaluación del rendimiento del modelo mediante:
 
 
-- Curva ROC
+  - Curva ROC
 
 
 - Matriz de confusión
