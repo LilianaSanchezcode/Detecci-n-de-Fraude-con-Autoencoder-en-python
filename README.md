@@ -36,7 +36,7 @@ ________________________________________
 
 - Matriz de confusión
 
- # **Hallazgos:**
+ ## **Hallazgos:**
 
 El codificador automático ha aprendido a discriminar anomalías.Se ha clasificado correctamente a 79 de los 98 casos fradulentos, lo que representa el 81% del total de los casos. Sin embargo, al mismo tiempo, se ha clasificado erróneamente 1254 casos como fradulentos (son normales), esto representa el 2,2 % de los casos normales, lo que podria provocar insatisfacción en el cliente.
 
