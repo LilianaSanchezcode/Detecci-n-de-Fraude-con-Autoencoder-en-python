@@ -3,7 +3,7 @@ Detección de Fraude con Autoencoder en python
 
 
 
-**Detección de anomalías mediante codificadores automáticos:**
+## **Detección de anomalías mediante codificadores automáticos:**
 
 Siga los siguientes pasos para detectar anomalías en un conjunto de datos de gran dimensión. También puede aplicar esto a conjuntos de datos no balanceados. Durante el entrenamiento, ingrese solo transacciones normales en el codificador. La capa de cuello de botella aprenderá la representación latente de los datos de entrada normales. El decodificador utilizará la salida de las capas de cuello de botella para reconstruir las transacciones normales de los datos de entrada originales. Una transacción fraudulenta será diferente a una transacción normal. El Autoencoder tendrá problemas para reconstruir la transacción fraudulenta y, por lo tanto, el error de reconstrucción será alto. Puede marcar una nueva transacción como fraudulenta en función de un valor de umbral especificado para el error de reconstrucción.
 
@@ -20,7 +20,7 @@ ________________________________________
 - Time Contiene los segundos transcurridos entre cada transacción.
 - Amount - Valor total de la transacción.
 - Class-Es el target, etiqueta dada a las transacciones, donde 0 representa una transacción normal y 1 refiere a una transacción fraudulenta.
-- 
+ 
 
 ## Este proyecto tratará los siguientes puntos:
 
@@ -36,7 +36,7 @@ ________________________________________
 
 - Matriz de confusión
 
-- Hallazgos:
+ # **Hallazgos:**
 
 El codificador automático ha aprendido a discriminar anomalías.Se ha clasificado correctamente a 79 de los 98 casos fradulentos, lo que representa el 81% del total de los casos. Sin embargo, al mismo tiempo, se ha clasificado erróneamente 1254 casos como fradulentos (son normales), esto representa el 2,2 % de los casos normales, lo que podria provocar insatisfacción en el cliente.
 
